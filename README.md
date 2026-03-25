@@ -21,6 +21,7 @@ Acompanhamento prático das aulas e implementações:
 - [ ] *(.)*
 ## Criação de VPC e subnets manuais
 ![alt text](vpc_01-1.png)
+![alt text](subnets_01-1.png)
 
 ## 💡 Comandos de Sobrevivência (Cheatsheet)
 Registro dos comandos mais utilizados no fluxo de trabalho:
