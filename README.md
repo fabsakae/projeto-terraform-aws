@@ -16,6 +16,9 @@ Este repositório documenta minha jornada de aprendizado prático em **Infraestr
 Acompanhamento prático das aulas e implementações:
 
 - [x] **Setup e Segurança:** Configuração de repositório blindado (`.gitignore` para `.tfstate` e credenciais).
+
+![alt text](gitignore-1.png)
+
 - [x] **FinOps Básico:** Criação de *AWS Zero-Spend Budget* para evitar cobranças indesejadas.
 - [x] **Networking:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway
 * Criação da VPC (10.0.0.0/16)
