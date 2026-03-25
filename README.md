@@ -6,24 +6,33 @@
 ## 📖 Sobre o Projeto
 Este repositório documenta minha jornada de aprendizado prático em **Infraestrutura como Código (IaC)** utilizando Terraform na nuvem AWS. O objetivo é construir ambientes escaláveis, aplicando boas práticas de mercado, segurança e controle de custos desde o dia zero.
 
-## 🚀 Stack Tecnológica
+##  Stack Tecnológica
 * **Terraform:** Provisionamento e gerenciamento de infraestrutura.
 * **AWS:** Provedor de nuvem (VPC, Subnets, EC2, IAM, etc.).
 * **Docker & Minikube:** Ferramentas complementares no meu ambiente local.
 * **Git & GitHub:** Versionamento de código e documentação.
 
-## 🏗️ Arquitetura e Módulos Concluídos
+##  Arquitetura e Módulos Concluídos
 Acompanhamento prático das aulas e implementações:
 
 - [x] **Setup e Segurança:** Configuração de repositório blindado (`.gitignore` para `.tfstate` e credenciais).
 - [x] **FinOps Básico:** Criação de *AWS Zero-Spend Budget* para evitar cobranças indesejadas.
-- [ ] **Networking:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway.
-- [ ] *(.)*
-## Criação de VPC e subnets manual
-![alt text](vpc_01-1.png)
-![alt text](subnets_01-1.png)
+- [x] **Networking:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway
+* Criação da VPC (10.0.0.0/16)
 
-## 💡 Comandos de Sobrevivência (Cheatsheet)
+![alt text](vpc_01-1.png)
+* Criação das subnets Públicas e Privadas.
+
+![alt text](subnets_01-1.png)
+* Criação do Internet Gateway associado a VPC.
+
+![alt text](image.png)
+* Criação de uma Route Table que controla o roteamento da sub-red para tornar a subnet pública com uma entrada para o IGW.
+
+![alt text](<route table public-1.png>)
+
+- [ ] *(.)*
+##  Comandos de Sobrevivência (Cheatsheet)
 Registro dos comandos mais utilizados no fluxo de trabalho:
 * `terraform init`: Prepara o terreno baixando os plugins da AWS.
 * `terraform plan`: Meu melhor amigo. Mostra o que vai ser alterado/criado antes de executar.
