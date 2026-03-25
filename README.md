@@ -14,13 +14,18 @@ Este repositório documenta minha jornada de aprendizado prático em **Infraestr
 
 ##  Arquitetura e Módulos Concluídos
 Acompanhamento prático das aulas e implementações:
+- [x] **Diagrama inicial:**
+
+![alt text](diagrama-1.png)
 
 - [x] **Setup e Segurança:** Configuração de repositório blindado (`.gitignore` para `.tfstate` e credenciais).
 
 ![alt text](gitignore-1.png)
 
 - [x] **FinOps Básico:** Criação de *AWS Zero-Spend Budget* para evitar cobranças indesejadas.
-- [x] **Networking:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway de forma Manual
+
+- [x] **Networking 01:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway, Route Tables de forma Manual.
+
 * Criação da VPC (10.0.0.0/16)
 
 ![alt text](vpc_01-1.png)
@@ -37,7 +42,12 @@ Acompanhamento prático das aulas e implementações:
 
 ![alt text](<route associations-1.png>)
 
-- [ ] **Networking:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway usando Terraform e Iac
+- [x] **Networking 02:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway usando Terraform e IaC.
+
+
+
+
+
 ##  Comandos de Sobrevivência (Cheatsheet)
 Registro dos comandos mais utilizados no fluxo de trabalho:
 * `terraform init`: Prepara o terreno baixando os plugins da AWS.
