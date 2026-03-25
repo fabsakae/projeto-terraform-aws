@@ -19,7 +19,7 @@ Acompanhamento prático das aulas e implementações:
 - [x] **FinOps Básico:** Criação de *AWS Zero-Spend Budget* para evitar cobranças indesejadas.
 - [ ] **Networking:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway.
 - [ ] *(.)*
-## Criação de VPC e subnets manuais
+## Criação de VPC e subnets manual
 ![alt text](vpc_01-1.png)
 ![alt text](subnets_01-1.png)
 
