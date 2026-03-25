@@ -20,7 +20,7 @@ Acompanhamento prático das aulas e implementações:
 ![alt text](gitignore-1.png)
 
 - [x] **FinOps Básico:** Criação de *AWS Zero-Spend Budget* para evitar cobranças indesejadas.
-- [x] **Networking:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway
+- [x] **Networking:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway de forma Manual
 * Criação da VPC (10.0.0.0/16)
 
 ![alt text](vpc_01-1.png)
@@ -30,11 +30,14 @@ Acompanhamento prático das aulas e implementações:
 * Criação do Internet Gateway associado a VPC.
 
 ![alt text](image.png)
-* Criação de uma Route Table que controla o roteamento da sub-red para tornar a subnet pública com uma entrada para o IGW.
+* Criação de uma Route Table que controla o roteamento da subnet para tornar a subnet pública com uma entrada para o IGW.
 
 ![alt text](<route table public-1.png>)
+* Associação de subnet
 
-- [ ] *(.)*
+![alt text](<route associations-1.png>)
+
+- [ ] **Networking:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway usando Terraform e Iac
 ##  Comandos de Sobrevivência (Cheatsheet)
 Registro dos comandos mais utilizados no fluxo de trabalho:
 * `terraform init`: Prepara o terreno baixando os plugins da AWS.
