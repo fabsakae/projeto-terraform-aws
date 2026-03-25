@@ -19,6 +19,8 @@ Acompanhamento prático das aulas e implementações:
 - [x] **FinOps Básico:** Criação de *AWS Zero-Spend Budget* para evitar cobranças indesejadas.
 - [ ] **Networking:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway.
 - [ ] *(.)*
+## Criação de VPC e subnets manuais
+![alt text](vpc_01-1.png)
 
 ## 💡 Comandos de Sobrevivência (Cheatsheet)
 Registro dos comandos mais utilizados no fluxo de trabalho:
@@ -28,7 +30,7 @@ Registro dos comandos mais utilizados no fluxo de trabalho:
 * `terraform destroy`: O comando de ouro para limpar tudo após os estudos e não estourar o cartão de crédito.
 
 ## ⚙️ Como executar localmente
-> **Aviso de Custos:** Alguns recursos provisionados podem sair do *AWS Free Tier*. Sempre utilize o comando de destruição após os testes.
+> **Aviso de Custos:** Alguns recursos provisionados podem sair do *AWS Free Tier*. Sempre utilize o comando de destruição após os testes (terraform destroy).
 
 1. Clone o repositório:
    ```bash
