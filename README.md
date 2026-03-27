@@ -44,8 +44,10 @@ Acompanhamento prático das aulas e implementações:
 
 - [x] **Networking 02:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway usando Terraform e IaC.
 
+![alt text](infraestruturacomterraform-1.png)
+* Inicializando o Terraform
 
-
+![alt text](inicialisarterraform-1.png)
 
 
 ##  Comandos de Sobrevivência (Cheatsheet)
