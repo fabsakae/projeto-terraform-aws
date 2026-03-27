@@ -48,6 +48,12 @@ Acompanhamento prático das aulas e implementações:
 * Inicializando o Terraform
 
 ![alt text](inicialisarterraform-1.png)
+* Após os comandos:
+```
+terraform plan
+terraform apply
+```
+![alt text](infraterraformpronta-1.png)
 
 
 ##  Comandos de Sobrevivência (Cheatsheet)
