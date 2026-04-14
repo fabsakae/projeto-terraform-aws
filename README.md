@@ -16,7 +16,8 @@ Este repositório documenta minha jornada de aprendizado prático em **Infraestr
 Acompanhamento prático das aulas e implementações:
 - [x] **Diagrama inicial:**
 
-c:\Users\Junior\Documents\terraform_udemy\image-01-benefits\diagrama.png
+[Clique aqui para ver o diagrama detalhado](./image-01-benefits/diagrama.png)
+
 
 - [x] **Setup e Segurança:** Configuração de repositório blindado (`.gitignore` para `.tfstate` e credenciais).
 
