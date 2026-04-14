@@ -21,7 +21,7 @@ Acompanhamento prático das aulas e implementações:
 
 - [x] **Setup e Segurança:** Configuração de repositório blindado (`.gitignore` para `.tfstate` e credenciais).
 
-c:\Users\Junior\Documents\terraform_udemy\image-01-benefits\gitignore.png
+[Clique aqui para ver a imagem](./image-01-benefits\gitignore.png)
 
 - [x] **FinOps Básico:** Criação de *AWS Zero-Spend Budget* para evitar cobranças indesejadas.
 
@@ -29,7 +29,7 @@ c:\Users\Junior\Documents\terraform_udemy\image-01-benefits\gitignore.png
 
 * Criação da VPC (10.0.0.0/16)
 
-![alt text](vpc_01-1.png)
+![Clique aqui para ver a imagem](./image-01-benefits\vpc_01.png)
 * Criação das subnets Públicas e Privadas.
 
 ![alt text](subnets_01-1.png)
