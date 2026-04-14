@@ -66,6 +66,8 @@ Registro dos comandos mais utilizados no fluxo de trabalho:
 
 ## ⚙️ Como executar localmente
 > **Aviso de Custos:** Alguns recursos provisionados podem sair do *AWS Free Tier*. Sempre utilize o comando de destruição após os testes (terraform destroy).
+## Aula 03-first-tf-project
+
 
 1. Clone o repositório:
    ```bash
