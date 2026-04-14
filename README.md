@@ -21,41 +21,40 @@ Acompanhamento prático das aulas e implementações:
 
 - [x] **Setup e Segurança:** Configuração de repositório blindado (`.gitignore` para `.tfstate` e credenciais).
 
-[Clique aqui para ver a imagem](./image-01-benefits\gitignore.png)
-
+[Clique aqui para ver a imagem](./image-01-benefits/gitignore.png)
 - [x] **FinOps Básico:** Criação de *AWS Zero-Spend Budget* para evitar cobranças indesejadas.
 
 - [x] **Networking 01:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway, Route Tables de forma Manual.
 
 * Criação da VPC (10.0.0.0/16)
 
-![Clique aqui para ver a imagem](./image-01-benefits\vpc_01.png)
+[Clique aqui para ver a imagem](./image-01-benefits/vpc_01.png)
 * Criação das subnets Públicas e Privadas.
 
-![alt text](subnets_01-1.png)
+![alt text](./image-01-benefits/subnets_01.png)
 * Criação do Internet Gateway associado a VPC.
 
-![alt text](image.png)
+![alt text](./image-01-benefits/igw-01.png)
 * Criação de uma Route Table que controla o roteamento da subnet para tornar a subnet pública com uma entrada para o IGW.
 
-![alt text](<route table public-1.png>)
+![alt text](./image-01-benefits/route%20table%20public.png)
 * Associação de subnet
 
-![alt text](<route associations-1.png>)
+![alt text](./image-01-benefits/route%20associations.png)
 
 - [x] **Networking 02:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway usando Terraform e IaC.
 
-![alt text](infraestruturacomterraform-1.png)
+![alt text](./image-01-benefits/infraestruturacomterraform.png)
 * Inicializando o Terraform
 
-![alt text](inicialisarterraform-1.png)
+![alt text](./image-01-benefits/inicialisarterraform.png)
 * Após os comandos:
 ```
 terraform plan
 terraform apply
 ```
 * Infraestrutura disponível
-![alt text](infraterraformpronta-1.png)
+![alt text](./image-01-benefits/infraterraformpronta.png)
 
 
 ##  Comandos de Sobrevivência (Cheatsheet)
