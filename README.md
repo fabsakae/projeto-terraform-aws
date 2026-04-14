@@ -53,6 +53,7 @@ Acompanhamento prático das aulas e implementações:
 terraform plan
 terraform apply
 ```
+* Infraestrutura disponível
 ![alt text](infraterraformpronta-1.png)
 
 
