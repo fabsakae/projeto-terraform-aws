@@ -85,6 +85,8 @@ Registro dos comandos mais utilizados no fluxo de trabalho:
 
 ![alt text](./image-03-first-tf-project/terraform-apply.png)
 
+![alt text](./image-03-first-tf-project/s3-aws.png)
+
 1. Clone o repositório:
 
    ```bash
