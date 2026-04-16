@@ -4,71 +4,88 @@
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 ## 📖 Sobre o Projeto
+
 Este repositório documenta minha jornada de aprendizado prático em **Infraestrutura como Código (IaC)** utilizando Terraform na nuvem AWS. O objetivo é construir ambientes escaláveis, aplicando boas práticas de mercado, segurança e controle de custos desde o dia zero.
 
-##  Stack Tecnológica
+## Stack Tecnológica
+
 * **Terraform:** Provisionamento e gerenciamento de infraestrutura.
 * **AWS:** Provedor de nuvem (VPC, Subnets, EC2, IAM, etc.).
 * **Docker & Minikube:** Ferramentas complementares no meu ambiente local.
 * **Git & GitHub:** Versionamento de código e documentação.
 
-##  Arquitetura e Módulos Concluídos
+## Arquitetura e Módulos Concluídos
+
 Acompanhamento prático das aulas e implementações:
-- [x] **Diagrama inicial:**
+
+* [x] **Diagrama inicial:**
 
 [Clique aqui para ver o diagrama detalhado](./image-01-benefits/diagrama.png)
 
-
-- [x] **Setup e Segurança:** Configuração de repositório blindado (`.gitignore` para `.tfstate` e credenciais).
+* [x] **Setup e Segurança:** Configuração de repositório blindado (`.gitignore` para `.tfstate` e credenciais).
 
 [Clique aqui para ver a imagem](./image-01-benefits/gitignore.png)
-- [x] **FinOps Básico:** Criação de *AWS Zero-Spend Budget* para evitar cobranças indesejadas.
 
-- [x] **Networking 01:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway, Route Tables de forma Manual.
+* [x] **FinOps Básico:** Criação de *AWS Zero-Spend Budget* para evitar cobranças indesejadas.
+
+* [x] **Networking 01:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway, Route Tables de forma Manual.
 
 * Criação da VPC (10.0.0.0/16)
 
 [Clique aqui para ver a imagem](./image-01-benefits/vpc_01.png)
+
 * Criação das subnets Públicas e Privadas.
 
 ![alt text](./image-01-benefits/subnets_01.png)
+
 * Criação do Internet Gateway associado a VPC.
 
 ![alt text](./image-01-benefits/igw-01.png)
+
 * Criação de uma Route Table que controla o roteamento da subnet para tornar a subnet pública com uma entrada para o IGW.
 
 ![alt text](./image-01-benefits/route%20table%20public.png)
+
 * Associação de subnet
 
 ![alt text](./image-01-benefits/route%20associations.png)
 
-- [x] **Networking 02:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway usando Terraform e IaC.
+-[x] **Networking 02:** Criação de VPC, Subnets Públicas e Privadas, Internet Gateway usando Terraform e IaC.
 
 ![alt text](./image-01-benefits/infraestruturacomterraform.png)
+
 * Inicializando o Terraform
 
 ![alt text](./image-01-benefits/inicialisarterraform.png)
+
 * Após os comandos:
-```
+
+```bash
 terraform plan
 terraform apply
 ```
+
 * Infraestrutura disponível
 ![alt text](./image-01-benefits/infraterraformpronta.png)
 
+## Comandos de Sobrevivência (Cheatsheet)
 
-##  Comandos de Sobrevivência (Cheatsheet)
 Registro dos comandos mais utilizados no fluxo de trabalho:
+
 * `terraform init`: Prepara o terreno baixando os plugins da AWS.
 * `terraform plan`: Meu melhor amigo. Mostra o que vai ser alterado/criado antes de executar.
 * `terraform apply`: Aplica as mudanças e constrói a infraestrutura.
 * `terraform destroy`: O comando de ouro para limpar tudo após os estudos e não estourar o cartão de crédito.
 
 ## ⚙️ Como executar localmente
+
 > **Aviso de Custos:** Alguns recursos provisionados podem sair do *AWS Free Tier*. Sempre utilize o comando de destruição após os testes (terraform destroy).
+
 ## Aula 03-first-tf-project
 
+![alt text](./image-03-first-tf-project/terraform-apply.png)
 
 1. Clone o repositório:
+
    ```bash
    git clone [https://github.com/fabsakae/projeto-terraform-aws.git](https://github.com/fabsakae/projeto-terraform-aws.git)
