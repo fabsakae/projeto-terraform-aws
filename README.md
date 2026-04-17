@@ -87,6 +87,11 @@ Registro dos comandos mais utilizados no fluxo de trabalho:
 
 ![alt text](./image-03-first-tf-project/s3-aws.png)
 
+## Aula 04-backends
+
+Configurar um backend S3 para o Terraform. Permitir armazenar o state Terraform em um bucket S3, fornecendo uma solução de armazenamento remoto e segura:
+
+
 1. Clone o repositório:
 
    ```bash
